@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kr7ysztof/keycloak-for-gargoyle.svg?branch=master)](https://travis-ci.org/kr7ysztof/keycloak-for-gargoyle)
-[![](https://images.microbadger.com/badges/image/kr7ysztof/keycloak-for-gargoyle:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-for-gargoyle:master)
-[![](https://images.microbadger.com/badges/version/kr7ysztof/keycloak-for-gargoyle:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-for-gargoyle:master)
+[![](https://images.microbadger.com/badges/image/kr7ysztof/keycloak-it:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-it:master)
+[![](https://images.microbadger.com/badges/version/kr7ysztof/keycloak-it:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-it:master)
 
 # Keycloak docker for integration test
 
