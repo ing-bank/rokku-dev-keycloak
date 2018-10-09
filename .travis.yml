@@ -5,12 +5,23 @@ services:
 
 env:
   global:
-  - secure: bjtbKM1e2fag1oaabgdQs4QoiJIrUVM2qzmT+Uwypj4zoVikDQHn0aYn9XCL7lBSSVePJ/GdchLTEU9H58G76JXMviN1SXMkbMlZcN6B5lRElFayLxG/Yxnb758OvS/x554paNbkCljuMkYYGriMKjW4C18p8v3YoCANLM4nts5XqT2rqGHVzYqK4q0dLipHWFyjSB7XvJArOH18KD3ry+kaNw4kxo+HexpyDxDDVw+M4xLeNVkp85gSgi8H3JDcHfzNMbGms/gc4liYHcIQt8xhjHPcnOMeYVwk2blUSo+9bgdQZ9z0C2pBno/jSm/w1NmLyZA+iliYTZUlyp8uHh20m3JSB22H13tNt7EMZXWbqt6sDmTEFCLq93ztIw10nWnJkibGj2uj1f8IzCTo0Z9t2QWLdOcpPwZLG3+FuMLF2+nDrnm844DIU7oo3tMudbB7qabcMHunfCGowefCL5H7LKhzG8O/34qSavAJcMhCHsLGXOLch3C/OHmz6GspruMl4bA1DC/3W937Mef2MJVO4XBr5EJpfSIrUyE44kxN7Ebhcb9zesDat7f7dWA3sfKZrJT/AHt1or/wYktLnNcTJjs53Bzp9e0iyIhjSvx4bN/mbi+OIWNVPS4CQ4qcVLYpZROMrY4qL1zbVrGYE7WBwMYpIhoQKvYoa2JAGeM=
-  - secure: qmQmGYRFymDkJjbYcnltokuJuNgGICJbPiM7+x3H/f+jfpRFO2JrHCq56ZR4mjph+9tDFlZkg72bVHQvLy8wM/d6gheWfqLc6ysACebs3SuVCfODvOpAy4Am8Fz50XDB2UJELj1xemLkXM8toL3GQVGCBrnk8kWgFJdMfkdUw8gkM938WlwhF+uvsZYfJvxDX60TAi0wzF1Ke3yTnzOT5WZHvKVeMq6WXfoQWvaROzySHjD1MOYI9T2AzqjTK2hvaOuCT3I8bF0hY8U/VIp+qs6ZQSZrMkhhSoT2DIMGD9BezCGF52BN17wDOSFEHPULihEFGNqb0/K9X4KX4nGBXWP4hZC/8DVMyVd4+FXzDLVsqPsdqyWHPYq1Cu3RHnDKoj01OmUkP+jS+Y5cn1Cf0hhwWLwLHULFLQE+Kyhc/S3+bKk16XgFGy4fmYweCuG+q8cVmB63I1wF8FSWjCGHin8l92z6TALxK0o7SUtJWdkXVbJyN4Q+tKcE8D9SXrDkYOmgH33UQnhSnZbN2p2bZn5wvQ1Ou7TK0N8gsjbU4USdM0Gc4LJtFeoO8lFP12ElFX4x3QINWbH9ZKu//w05mof2B+lfSQVxbAepw7n4kvZTj8hZ3zQa/bML9oX0sfK61ITFmbgQkSMXIhwLy8clBW+5C7qghKWhXizbEFKd1Vk=
+  - DOCKER_REPO: nielsdenissen/airlock-dev-keycloak
+  - secure: kNpCpGu52Q7hYtdbvL2mfAOaG6n8O52YKPMJ2UfY4Tuwtv7kWBaC0n/6vGRWpQ9lnKbY9wuZ7NkpK0dk51G2meOXA5LLGeE2pIgQUPmbSP2d+VRN2vBFTbu1NC9YIujI+M1TWnUER9yhSGdqfCu8c70xLiabMeQYYZmiqEInlHRTjOU/MCkjbq9Zgmpr7PEgH8hnhAUv9RTROJbEVgH5fGjsMic21pvxt8wadQbdi1Wiiv4tjRmkhPR+zDS9H3r5atteRZH798zuNZ1O31Chl3nTmN2CbwFTc9RzQ6XqdEQuIFKtGLJ6FESH3lp+5eNUKnD6Rbm67PmE2Jp7euVWnF5YoC/GRODTg0VgjB+NE3mYjcZB74wSOePYtYfvYsNQosa13+s1Dz1F7nGluwuvVALgh74FEuMy+495JMnsPj59hy81V/+8tbchLiYSbM85E7jxrzxif+2Luwo/AcEbc7cItk/aejK3QRIiR1W9/APrl0LbKbutIHBG3JqvbcCaYaGmKV4hkUJOCiD9PQjL1YsUfJNL4mWbYA9U+jiaK+SQMYjxP61gcvG097HkhYNE3cvTcxFas4Tn+jAGaiVRrwEV1tpUzs9n+wTtJLQ1uDZjfvy6pnuas0mCfekjVi4qWdjXhtTP6RhtND/U/8NX96LUuKVePr09X3mcOhBWyog=
+  - secure: wWhsVYltnXkEtC+AJBrEzhGzjCX5/0p3OvgfkhiD/By1W4TIoJhJoOan10r1XN4uH/fRVTPA32XWua+BD0qu0IN4EjFzipSX/taH0oCKx7PKl0FyIEfO8Zat/DWlHuBu43oeU/USMB4fhoyIMWIn96iPP17BeN8YVNxb8luKjPPFJGxdJyO5WiPtB7S1kaPdB0Ri6UQv0R4T5iei3bjzHa+h0BWGyJwPODB3P2TT5gs2WTGzivQhmyJspfTSRk6vggqXmlxRtdJa1NzSe+CoOcp1Dok35p7GRS1uCI0Sljpu0NFKBDE3wG2tBPKxkycbuIqA+MTP+vGeLE8Jh86spOwhgn20Y5tSZ/vXe8ZWg91C8OwVKXlK/afi5UffNyxum6fZme+NiqAiKGykCswLS+fId9Hw+cJ9LIdyZrPakQGju6zmXvTN6ScxyjOaZ1JDL59rKORpE55cjU84v6e8ZJEnqwaBHF6eKGji5a5MD+L2Y0dAj9p6bG8Vm9mARHbBbw8EdO62tSsdgrVhiWTFjKjmX/F/z4SdDptT3lxvJyT5Rpg2ceUM6Am/5gDDaRqBIxX1wkwfxdk/7T1NhtFprdMjQknH1hyG24CuVWcgXgrxANvbIL/r+rAxJEthz5R51eVM14j6HoRbhItggyi+yF7GMXrB44QQzu3SQnVI+as=
 
+# We will not build an image on the master tag, thereby forcing people to use tagged versions only
+# Also there is an issue with using TRAVIS_BRANCH for PRs since this variable will be set to the target of the PR (e.g. master for PR to master) and then build an image for master unwanted before the merge happened
 script:
-- echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-- docker build --quiet -t kr7ysztof/keycloak-it:$TRAVIS_BRANCH .;
-- docker pull kr7ysztof/keycloak-it:latest;
-  docker push kr7ysztof/keycloak-it:$TRAVIS_BRANCH;
-  if [ "${TRAVIS_BRANCH}" == "master" ]; then docker tag kr7ysztof/keycloak-it:$TRAVIS_BRANCH kr7ysztof/keycloak-it:latest; docker push kr7ysztof/keycloak-it:latest; fi 
+- echo "Running pipeline for branch ${TRAVIS_BRANCH}"
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+- export DOCKER_TAG="${TRAVIS_BRANCH/\//_}"
+- if [ "${TRAVIS_BRANCH}" != "master" ]; then 
+    echo "Build image for with name $DOCKER_REPO:$DOCKER_TAG";
+    docker pull $DOCKER_REPO:latest;
+    travis_wait 80 docker build --quiet -t $DOCKER_REPO:$DOCKER_TAG .;
+    docker push $DOCKER_REPO:$DOCKER_TAG;
+  fi
+- if [ -n "$TRAVIS_TAG" ]; then 
+    docker tag $DOCKER_REPO:$DOCKER_TAG $DOCKER_REPO:latest;
+    docker push $DOCKER_REPO:latest;
+  fi

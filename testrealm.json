@@ -1,5 +1,5 @@
 {
-    "realm": "auth-gargoyle",
+    "realm": "auth-airlock",
     "enabled": true,
     "accessTokenLifespan": 60,
     "accessCodeLifespan": 60,
@@ -73,7 +73,7 @@
     },
     "clients": [
         {
-            "clientId": "sts-gargoyle",
+            "clientId": "sts-airlock",
             "enabled": true,
             "adminUrl": "",
             "baseUrl": "",

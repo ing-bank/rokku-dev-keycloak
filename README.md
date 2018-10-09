@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/kr7ysztof/keycloak-for-gargoyle.svg?branch=master)](https://travis-ci.org/kr7ysztof/keycloak-for-gargoyle)
-[![](https://images.microbadger.com/badges/image/kr7ysztof/keycloak-it:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-it:master)
-[![](https://images.microbadger.com/badges/version/kr7ysztof/keycloak-it:master.svg)](https://microbadger.com/images/kr7ysztof/keycloak-it:master)
+[![Build Status](https://travis-ci.org/ing-bank/airlock-dev-keycloak.svg?branch=master)](https://travis-ci.org/ing-bank/airlock-dev-keycloak)
+[![](https://images.microbadger.com/badges/image/nielsdenissen/airlock-dev-keycloak:latest.svg)](https://microbadger.com/images/nielsdenissen/airlock-dev-keycloak:latest)
 
-# Keycloak docker for integration test
+
+# Airlock Dev - Keycloak
 
 testrealm.json - users, groups, clients and so on to be available after keycloak start.
 
@@ -12,7 +12,6 @@ docker build -t dockerkeycloakname .
 ```
 ## running
 ```
-docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin dockerKeycloakName
+docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin dockerkeycloakname
 ```
 Login as admin:admin: http://localhost:8080/auth 
-## 
