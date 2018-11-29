@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/ing-bank/airlock-dev-keycloak.svg?branch=master)](https://travis-ci.org/ing-bank/airlock-dev-keycloak)
-[![](https://images.microbadger.com/badges/image/nielsdenissen/airlock-dev-keycloak:latest.svg)](https://microbadger.com/images/nielsdenissen/airlock-dev-keycloak:latest)
+[![](https://images.microbadger.com/badges/image/wbaa/airlock-dev-keycloak:latest.svg)](https://microbadger.com/images/wbaa/airlock-dev-keycloak:latest)
 
 
 # Airlock Dev - Keycloak
