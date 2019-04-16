@@ -1,5 +1,5 @@
 {
-  "realm": "auth-airlock",
+  "realm": "auth-rokku",
   "enabled": true,
   "accessTokenLifespan": 60,
   "accessCodeLifespan": 60,
@@ -150,7 +150,7 @@
   },
   "clients": [
     {
-      "clientId": "sts-airlock",
+      "clientId": "sts-rokku",
       "enabled": true,
       "adminUrl": "",
       "baseUrl": "",
