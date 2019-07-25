@@ -1,4 +1,4 @@
-FROM jboss/keycloak-examples:4.4.0.Final
+FROM jboss/keycloak-examples:4.0.0.Beta3
 
 ADD testrealm.json /opt/jboss/keycloak-demo/keycloak/testrealm.json
 
