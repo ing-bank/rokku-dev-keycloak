@@ -28,7 +28,8 @@
       ],
       "realmRoles": [
         "user",
-        "offline_access"
+        "offline_access",
+        "admin"
       ],
       "clientRoles": {
         "account": [
