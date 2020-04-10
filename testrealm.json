@@ -15,6 +15,29 @@
   ],
   "users": [
     {
+      "username": "rokkuadmin",
+      "enabled": true,
+      "email": "rokkuadmin@test.com",
+      "firstName": "rokkuadmin",
+      "lastName": "rokkuadmin",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "password"
+        }
+      ],
+      "realmRoles": [
+        "user",
+        "offline_access",
+        "admin"
+      ],
+      "clientRoles": {
+        "account": [
+          "manage-account"
+        ]
+      }
+    },
+    {
       "username": "userone",
       "enabled": true,
       "email": "userone@test.com",
